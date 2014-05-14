@@ -163,7 +163,7 @@ public class CategoryBean {
 			<literal>/blog/2010/12/</literal> and <literal>/blog/lincoln/23/</literal> have the same number of
 			parameters, but mean different things. One is going to display a list of articles from December 2010,
 			and the other is going to display Lincoln's 23rd post. There has to be a way for the system to tell
-			the two apart, and the answer is custum regex patterns.
+			the two apart, and the answer is custom regex patterns.
 		
 			<programlisting><![CDATA[<url-mapping id="archives">
   <pattern value="/#{ /\\d{4}/ year }/#{ /\\d{2}/ month }/" />
